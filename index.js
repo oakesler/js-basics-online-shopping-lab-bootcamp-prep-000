@@ -80,7 +80,7 @@ function removeFromCart(item) {
   
   for(var i = 0; i < carty.length; i++) {
     if (carty[i].itemName === itemy) {
-      carty.prototype.splice(i, 1)
+      carty.splice(i, 1)
       return carty
     }
     else {
