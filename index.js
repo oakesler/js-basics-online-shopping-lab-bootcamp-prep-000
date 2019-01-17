@@ -80,19 +80,19 @@ function removeFromCart(item) {
     arrayish.push(cart[b].itemName)
   }
   
-  if arrayish.search
+  var a = arrayish.indexOf(itemy)
   
+  if (a === -1) {
+    return "That item is not in your cart."
+  }
   
+  else {
   
-  
+}
   for (var i = 0; i < cart.length; i++) {
-    
     if (`${item}` === `${cart[i].itemName}`) {
       cart.splice(i, 1)
       return cart
-    }
-    else {
-      return "That item is not in your cart."
     }
   }
 }
