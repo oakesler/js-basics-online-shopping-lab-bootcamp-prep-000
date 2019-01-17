@@ -78,8 +78,8 @@ function removeFromCart(item) {
   var itemy = `${item}`
   var carty = [cart]
   
-  for (var  = 0; b < arrayy.length; b++) {
-    if (arrayy[i] === itemy) {
+  for (var b = 0; b < carty.length; b++) {
+    if (carty[b] === itemy) {
       var newNew = cart.splice(i, 1)
       return newNew
     }
