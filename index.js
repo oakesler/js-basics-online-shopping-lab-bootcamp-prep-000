@@ -90,11 +90,6 @@ function removeFromCart(item) {
     return cart
   }
 }
-    ///for (var i = 0; i < cart.length; i++) {
-    ///if (`${item}` === `${cart[i].itemName}`) {
-      ///cart.splice(i, 1)
-      ///return cart
-
 
 function placeOrder(cardNumber) {
   // write your code here
