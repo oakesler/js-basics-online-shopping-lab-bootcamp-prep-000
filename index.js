@@ -99,7 +99,7 @@ function placeOrder(cardNumber) {
   var z = cart.length
   
   if (x === 0) {
-    return "Sorry, we don't have a credit card on file for you."
+    return "Sorry, we don't have a credit card on file for you.";
   }
   
   else {
