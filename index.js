@@ -95,8 +95,10 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
+  var x = 0 + cardNumber
   var z = cart.length
-  if (cardNumber === 0) {
+  
+  if (x === 0) {
     return "Sorry, we don't have a credit card on file for you."
   }
   
