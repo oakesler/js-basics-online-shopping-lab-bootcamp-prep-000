@@ -81,7 +81,7 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     var thang = `${cart[i].itemName}`
     
-    if (thang.equals(itemy) === true) {
+    if (thang == itemy) {
       cart.splice(i, 1)
       return cart
     }
@@ -92,6 +92,8 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+///if (thang.equals(itemy) === true)
 
 ///var carty = [cart]
 
