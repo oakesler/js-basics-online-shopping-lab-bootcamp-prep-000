@@ -74,18 +74,20 @@ function total() {
 
 
 function removeFromCart(item) {
-  
+  var arrayy = []
   var itemy = `${item}`
   var carty = [cart]
   
   for(var i = 0; i < carty.length; i++) {
-    if (carty[i].itemName === itemy) {
-      carty.splice(i, 1)
-      return carty
+    arrayy.push(carty[i].itemName)
+  }
+  
+  for (var b = 0; b < arrayy.length; b++) {
+    if (arrayy[i] === itemy) {
+      cart.splice(i, 1)
+      return cart
     }
-    else {
-      return "That item is not in your cart."
-    }
+    else return "That item is not in your cart."
   }
 }
 
@@ -201,5 +203,23 @@ function placeOrder(cardNumber) {
       ///carty.prototype.splice(i, 0)
     ///}
     ///else return "That item is not in your cart."
+  ///}
+///}
+
+
+
+///function removeFromCart(item) {
+  
+  ///var itemy = `${item}`
+  ///var carty = [cart]
+  
+  ///for(var i = 0; i < carty.length; i++) {
+    ///if (carty[i].itemName === itemy) {
+      ///carty.splice(i, 1)
+      ///return carty
+    //}
+    ///else {
+      ///return "That item is not in your cart."
+    ///}
   ///}
 ///}
