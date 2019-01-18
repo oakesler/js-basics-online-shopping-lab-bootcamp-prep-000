@@ -105,7 +105,7 @@ function placeOrder(cardNumber) {
     
   else {
     cart.splice(0, z)
-    return `Your total cost is ${[y]}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is $${[y]}, which will be charged to the card ${cardNumber}.`
   }
   
   
