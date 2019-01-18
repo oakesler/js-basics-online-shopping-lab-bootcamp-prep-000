@@ -60,8 +60,6 @@ else {
   }
 }
 
-var subtotal = 0 
-
 function total() {
   var totalPrice = 0
   var priceArray = []
@@ -106,7 +104,7 @@ function placeOrder(cardNumber) {
     
   else {
     cart.splice(0, z)
-    return `Your total cost is ${[subtotal]}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is ${[total()]}, which will be charged to the card ${cardNumber}.`
   }
   
   
