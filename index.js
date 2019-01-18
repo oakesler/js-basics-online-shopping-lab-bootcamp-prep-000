@@ -60,6 +60,8 @@ else {
   }
 }
 
+var subtotal = 0 
+
 function total() {
   var totalPrice = 0
   var priceArray = []
